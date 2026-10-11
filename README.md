@@ -59,7 +59,7 @@ La CI GitHub lance tout à chaque pull request.
 
 ## Déploiement (Vercel + Neon)
 
-1. Vercel → _Add New Project_ → importer `nassim0014/kinz-fidelite`.
+1. Vercel → _Add New Project_ → importer `Kinz-org/kinz-fidelite`.
 2. _Storage_ → _Neon Postgres_ (Marketplace) → lier au projet. Utiliser l'URL **poolée** de Neon (hôte `-pooler`). Les prévisualisations utilisent leur propre base (branches Neon créées par l'intégration).
 3. _Settings → Environment Variables_ : définir chaque variable par environnement, sans partager de secret entre Production et Preview.
    - **Production uniquement** : `DATABASE_URL` (base de production), `SESSION_SECRET` (générer avec `openssl rand -base64 48`), `APP_URL` (l'URL de production, ex. `https://fidelite.kinzoils.com`).
