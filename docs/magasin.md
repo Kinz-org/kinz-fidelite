@@ -22,7 +22,7 @@ l'ouvrent directement :
 3. **Installer Git for Windows** (git-scm.com), puis dans PowerShell :
    ```powershell
    cd $HOME\Documents
-   git clone https://github.com/nassim0014/kinz-fidelite.git
+   git clone https://github.com/Kinz-org/kinz-fidelite.git
    cd kinz-fidelite
    ```
    Une fenêtre GitHub demande de se connecter : c'est normal, le dépôt est privé.
